@@ -27,12 +27,36 @@ public class ProductRepository {
 		tablet.setManufacturer("Samsung");
 		tablet.setUnitsInStock(1000);
 		tablet.setCondition("Old");
+        
+        Product phone1 = new Product("P1237", "iPhone 6s", 800000);
+		phone.setDescription("4.7-inch, 1334X750 Renina HD display, 8-megapixel iSight Camera");
+		phone.setCategory("Smart Phone");
+		phone.setManufacturer("Apple");
+		phone.setUnitsInStock(1000);
+		phone.setCondition("New");
+        
+        Product phone2 = new Product("P1238", "iPhone 6s", 800000);
+		phone.setDescription("4.7-inch, 1334X750 Renina HD display, 8-megapixel iSight Camera");
+		phone.setCategory("Smart Phone");
+		phone.setManufacturer("Apple");
+		phone.setUnitsInStock(1000);
+		phone.setCondition("New");
+        
+        Product phone3 = new Product("P1239", "iPhone 6s", 800000);
+		phone.setDescription("4.7-inch, 1334X750 Renina HD display, 8-megapixel iSight Camera");
+		phone.setCategory("Smart Phone");
+		phone.setManufacturer("Apple");
+		phone.setUnitsInStock(1000);
+		phone.setCondition("New");
 		
 		// 위와 같이 상품 초기화 하고 아래에 상품을 추가
 
 		listOfProducts.add(phone);
 		listOfProducts.add(notebook);
 		listOfProducts.add(tablet);
+        listOfProducts.add(phone1);
+        listOfProducts.add(phone2);
+        listOfProducts.add(phone3);
 		// listOfProducts.add(상품명);
 	}
 
