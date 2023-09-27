@@ -4,7 +4,7 @@
   <footer class="container">
      <p> <br> &copy; 쇼핑몰 대표 : 홍길동, 고유번호 : 20111234, 연락처 : admin@nate.com <br> 
         <%
-    	Shoptime time = new Shoptime();
+    	ShopTime time = new ShopTime();
          %>    
         오늘 날짜와 시간 : <%=time.timenow() %>
         </p>

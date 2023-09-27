@@ -1,6 +1,6 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
 <%@ page import="java.util.Date" %>
-<%@ page buffer=“1kb" autoFlush="true"%>
+<%@ page buffer="1kb" autoFlush="true"%>
 
 <html>
 <head>
