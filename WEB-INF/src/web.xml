@@ -1,2 +1,6 @@
 <web-app>
+    <errorpage>
+        <error-code>404</error-code>
+    <location>/exception/main_server_downtime.jsp</location>
+    </errorpage>
 </web-app>

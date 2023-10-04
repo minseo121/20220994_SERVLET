@@ -1,7 +1,6 @@
 <%@ page contentType = "text/html; charset=utf-8" %>
 <%@ page import="java.util.Date" %>
 <%@ page buffer="1kb" autoFlush="true"%>
-<%@ page errorPage = "exception/main_server_downtime.jsp" %>
 
 <html>
 <head>
@@ -32,6 +31,9 @@
     <%@ include file = "top_menu.jsp" %>
     <%@ include file = "body_main.jsp" %>
     <%@ include file = "footer.jsp" %>
+    <div class="container">
+			<h1 class="display-3">상품 정보 에러!! 홈페이지 관리자에게 문의해 주세요.</h1>
+		</div>
     현재 페이지 버퍼 용량 : <%= out.getBufferSize() %> <br>
      남은 페이지 버퍼 용량 : <%= out.getRemaining() %>
 </body>	
