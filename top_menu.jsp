@@ -25,6 +25,7 @@
                     <a class="navbar-brand custom-font" href="./index.jsp">퓨처스리그</a>
                     <a class="navbar-brand custom-font" href="./index.jsp">KBO 마켓</a>
                     <a class="navbar-brand custom-font" href="./index.jsp">KBO 폰트</a>
+                    <a class="navbar-brand custom-font" href="admin/index_ad.jsp">관리자모드</a>
             </div>
         </div>
     </div>
