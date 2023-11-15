@@ -13,7 +13,7 @@
             oncomplete: function(data) {
                 var addressName= data.address;
                 
-                document.getElementById("zipCode").value = data.zonecode;
+                document.getElementById("zipCode").value = data.zipCode;
                 document.getElementById("addressName").value = addressName;
             }
         }).open();
