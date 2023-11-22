@@ -29,28 +29,18 @@
 		while (rs.next()) { // 결과 ResultSet 객체 반복
 	        %>
 
-			<%
-				for (int i = 0; i < listOfProducts.size(); i++) {
-					Product product = listOfProducts.get(i);
-			%>
 			<div class="col-md-4">
                 <div class="card bg-dark text-white">
-                        <img src="image/product/<%=rs.getString("p_fileName")%>" class="card-img" alt="...">
+                        <img src="../img/product/<%=rs.getString("p_fileName")%>" class="card-img" alt="...">
                         <div class="card-img-overlay">
                         <h5 class="card-title">야옹</h5>
                         <p class="card-text">츄르줘라</p>
                         </div>
                         </div>
                 <h3><%=rs.getString("p_name")%></h3>
-		<p><%=rs.getString("p_description")%>
-		<p><%=rs.getString("p_UnitPrice")%>원
-		<p><a href="product_detail.jsp?id=<%=rs.getString("p_id")%>" class="btn btn-secondary" role="button"> 상세 정보 &raquo;></a>
-                </div>
-
-				<h3><%=product.getPname()%></h3>
-				<p><%=product.getDescription()%>
-				<p><%=product.getUnitPrice()%>원
-                <p><a href="product_detail.jsp?id=<%=product.getProductId()%>" class="btn btn-secondary" role="button"> 상품 상세 정보 &raquo;</a>
+                <p><%=rs.getString("p_description")%>
+                <p><%=rs.getString("p_UnitPrice")%>원
+                <p><a href="product_detail.jsp?id=<%=rs.getString("p_id")%>" class="btn btn-secondary" role="button"> 상세 정보 &raquo;></a>
 			</div>
             <%
 			} // 반복문 끝난 이후 db 연결 종료	

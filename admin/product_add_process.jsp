@@ -78,7 +78,5 @@
  	if (conn != null)
 		conn.close();
 
-	dao.addProduct(newProduct);
-
 	response.sendRedirect("index_ad.jsp");
 %>
