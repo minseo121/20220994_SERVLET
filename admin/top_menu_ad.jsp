@@ -19,6 +19,7 @@
                 <div class="navbar-header text-center">
                     <a class="navbar-brand custom-font" href="./index.jsp">회원 보기/추가/수정/삭제</a>
                     <a class="navbar-brand custom-font" href="index_ad.jsp">상품 보기</a>
+                    <a class="navbar-brand" href="/BoardListAction.do?pageNum=1">게시판(고객센터)</a>
                     <a class="navbar-brand custom-font" href="product_add.jsp">등록</a>
                     <a class="navbar-brand custom-font" href="product_edit.jsp?edit=update">수정</a>
                     <a class="navbar-brand custom-font" href="product_edit.jsp?edit=delete">삭제</a>

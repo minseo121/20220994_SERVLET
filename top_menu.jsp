@@ -18,7 +18,7 @@
             <div class="container-nav d-flex justify-content-end align-items-right">
                 <div class="navbar-header text-center">
                     <a class="navbar-brand custom-font" href="index.jsp">상품목록(기본 홈)</a>
-                    <a class="navbar-brand custom-font" href="../index.jsp">일정, 경기</a>
+                    <a class="navbar-brand" href="/BoardListAction.do?pageNum=1">게시판(고객센터)</a>
                     <a class="navbar-brand custom-font" href="../index.jsp">기록, 순위</a>
                     <a class="navbar-brand custom-font" href="../index.jsp">선수</a>
                     <a class="navbar-brand custom-font" href="../index.jsp">미디어, 뉴스</a>
