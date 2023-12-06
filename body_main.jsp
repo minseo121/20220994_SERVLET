@@ -6,15 +6,13 @@
 
 <jsp:useBean id="productDAO" class="dao.ProductRepository" scope="session" />
 
-<%! String greeting = "상단 페이지 : 쇼핑몰 메인 화면 문자열 신민서님";
-      String tagline = "하단 페이지 : 확인";%>
+        
 	<div class="container">
-	<div class="jumbotron">
 		<div class="container">
-			<h3 class="display-4">
-				<%=greeting%>
-            </h3>
-		</div>
+                <div class="image-container">
+                    <img src="img/baemin.png" alt="쇼핑몰 메인 화면 이미지">
+                </div>
+        </div>
 	</div>
 <%
 	ArrayList<Product> listOfProducts = productDAO.getAllProducts(); // 리스트에 상품 전체 정보를 얻어온다.
@@ -53,5 +51,12 @@
 	    %>
 
 		</div>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action">
+            한집 배달
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">알뜰 배달</a>
+    </div>
+
 		<hr>
 	</div>

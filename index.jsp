@@ -7,13 +7,41 @@
 <head>
     <style>
         @font-face {
-            font-family: 'KBO-Dia-Gothic_bold';
-            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
-            font-weight: 700;
+            font-family: 'BMDOHYEON';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMDOHYEON.woff') format('woff');
+            font-weight: normal;
             font-style: normal;
         }
+        .sub-font {
+            font-family: 'BMDOHYEON', sans-serif;
+        }
         .custom-font {
-            font-family: 'KBO-Dia-Gothic_bold', sans-serif;
+            font-family: 'BMHANNAPro', sans-serif;
+        }
+        
+    @font-face {
+        font-family: 'BMHANNAPro';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.0/BMHANNAPro.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+        .image-container{
+            padding-bottom:40px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .navbar-brand{
+            text-decoration: none;
+            color:#2BC1BC;
+        }
+        .navbar-img{
+            background-color: #F7D102;
+        }
+        .banner-img img{
+            max-width: 100%;
+            height: auto;
         }
     </style>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -29,6 +57,7 @@
     <title>방갑습니다. 개인 쇼핑몰 사이트입니다.</title>
 </head>
 <body>
+    <%@ include file = "top_banner.jsp" %>
     <%@ include file = "top_menu.jsp" %>
     <%@ include file = "body_main.jsp" %>
     <%@ include file = "footer.jsp" %>

@@ -11,9 +11,10 @@
     function Foundaddress(){
          new daum.Postcode({
             oncomplete: function(data) {
+                console.log(data);
                 var addressName= data.address;
                 
-                document.getElementById("zipCode").value = data.zipCode;
+                document.getElementById("zipCode").value = data.zonecode;
                 document.getElementById("addressName").value = addressName;
             }
         }).open();
@@ -67,7 +68,7 @@
 	   <label class="col-sm-2">주소</label>
 	     <div class="col-sm-5">
 		<input name="addressName" type="text" class="form-control" id="addressName"/>
-        <input type="button" Onclick="Foundaddress()" value="우편번호 찾기" />
+        <input type="button" onclick="Foundaddress()" value="우편번호 찾기" />
 	     </div>
 	</div>
 	<div class="form-group row">
